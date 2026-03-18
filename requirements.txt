@@ -1,0 +1,23 @@
+apache-airflow==2.8.1
+pyspark==3.5.0
+boto3==1.34.0
+pandas==2.1.0
+dbt-redshift==1.7.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+requests==2.31.0
+```
+
+---
+
+### Step 5 — .gitignore
+
+Create `.gitignore`:
+```
+.env
+__pycache__/
+*.pyc
+airflow/logs/
+*.egg-info/
+.venv/
+*.pbix
